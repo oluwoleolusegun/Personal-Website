@@ -1,0 +1,197 @@
+body{
+	font-family: "calibri";
+	padding:0;
+	margin:0;
+	background-color:#f4f4f4;
+}
+
+header{
+	width: 100%;
+	background: darkslateblue;
+	height: 63px;
+	padding: 8px;
+}
+
+.branding{
+	width: 50%;
+	float: left;
+	background: darkslateblue;
+	color: white;
+}
+
+.branding .highlight{
+	color: #ff617c;
+}
+
+.branding h1{
+	font-size: 21px;
+    font-family: calibri;
+    padding-left: 41px;
+}
+
+.navbar{
+	width: 50%;
+	float: right;
+	background: darkslateblue;
+	color: white;
+}
+.navbar ul{
+	display: inline-flex;
+	padding-left: 307px;
+}
+
+.navbar ul li{
+	padding-left:15px;
+	list-style-type: none;
+}
+
+.navbar a {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.navbar .current a{
+	color: #ff617c;
+}
+
+.showcase{
+	clear: both;
+	background: url(../img/showcase.jpg);
+	padding: 80px;
+    text-align: center;
+    color: white;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "calibri";
+}
+
+.showcase h1{
+	font-size: 50px;
+    margin: 0px;
+}
+
+.newsletter{
+	width: 100%;
+	background: darkslateblue;
+	height: 63px;
+	padding: 3px;
+	font-family: "calibri";
+}
+
+.newsletter .left{
+	width: 50%;
+	float: left;
+	background: darkslateblue;
+	color: white;
+}
+
+.newsletter .left h1{
+	margin: 0px;
+	padding-left: 62px;
+    padding-top: 13px; 
+}
+
+.newsletter .right{
+	width: 50%;
+	float: right;
+	background: darkslateblue;
+	color: white;
+}
+
+.newsletter .right form {
+	padding-left: 172px;
+    padding-top: 20px;
+}
+
+.newsletter .right form input{
+	padding:7px;
+	border: none;
+	outline: none;
+}
+
+.newsletter .right form button{
+	padding:7px;
+	color: white;
+	background: #ff617c;
+	outline: none;
+	border: none;
+}
+
+.boxes{
+	display: flex;
+	margin-top: 20px;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 60px;
+}
+
+.boxes .box{
+	width: 320px;
+    text-align: center;
+    padding-right: 25px;
+}
+
+.boxes .box img{
+	height: 80px;
+}
+
+.content{
+	width: 100%;
+}
+
+.content .first{
+	width: 60%;
+	float: left;
+}
+
+.content .first .shift{
+	width: 85%;
+	margin-right: 45px;
+	float: right;
+}
+
+.content .first .shift .textbg{
+	background: black;
+	color: white;
+	padding: 15px;
+}
+
+.content .second{
+	width: 40%;
+	float: right;
+}
+
+.content .second .inside{
+	width: 60%;
+	background: black;
+	color: white;
+	padding-top: 0px;
+	padding: 20px;
+	margin-top: 20px;
+	float: left;
+}
+
+ .inside form input{
+	padding:7px;
+	border: none;
+	outline: none;
+}
+
+ .inside form button{
+	padding:7px;
+	color: white;
+	background: #ff617c;
+	outline: none;
+	border: none;
+}
+
+footer{
+	clear: both;
+	text-align: center;
+	padding: 20px;
+	background: darkslateblue;
+	color: white;
+}
